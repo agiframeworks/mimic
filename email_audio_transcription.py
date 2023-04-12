@@ -93,8 +93,8 @@ def main(api_key_file, recipient_email):
 if __name__ == "__main__":
   parser = argparse.ArgumentParser()
   parser.add_argument(
-    "api_key_file",
-    help="Path to the API key file (JSON) for Google Cloud services.")
+    "api_key_json",
+    help="Path to the API key secret (JSON) for Google Cloud services.")
   parser.add_argument(
     "recipient_email",
     help="Email address to send the transcriptions and original attachments.")
